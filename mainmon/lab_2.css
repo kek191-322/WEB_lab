@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Regular;
+    src: url(fonts/DS_Stamper.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(img/b1.jpg);
+    /*background-position: right bottom;*/
+    /*background-repeat: ;*/
+    width: 100%;
+}
+.lab_2{
+    margin: 50px;
+    padding: 20px;
+}
+.lab_2 p{
+    line-height: 2em;
+}
+.lab_2 h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.lab_2 img{
+    border: 3px solid blue;
+    height: auto;
+    width: 100%;
+    max-height: 500px;
+}
+#img{
+    border: 3px solid red;
+    height: auto;
+    width: 100%;
+    max-height: 500px;
+}
+/*.lab_2 li:first-child {*/
+    /*color: red;*/
+/*}*/
+.link-1{
+    margin: 20px;
+}
+.link-1 a{
+     color: ghostwhite;
+     background-color: black;
+     padding: 5px;
+     border-radius: 10px;
+ }
+
+
+.link-2{
+    margin: 20px;
+}
+.link-2 a:hover {
+     border-bottom: 5px solid #ff0029;
+     transition: 0.5s;
+ }
+
+
+.link-3{
+    margin: 20px;
+}
+.link-3 a{
+    border-radius: 10px;
+    padding: 7px;
+    background-color: red;
+    color: black;
+}
+.link-3 a:hover{
+    /*color: #FF6C00;*/
+    background-color: black;
+    color: ghostwhite;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.link-4{
+    margin: 20px;
+}
+.link-4 a:hover{
+    color: #FF6C00;
+}
+
+.form{
+    padding: 15px;
+
+}

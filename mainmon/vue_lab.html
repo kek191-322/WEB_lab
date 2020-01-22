@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KEK_VUE</title>
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vue_lab.css">
+</head>
+<body>
+
+    <header>
+        <div class="header_logo">
+            <h1>KEK</h1>
+        </div>
+        <div class="header_content">
+            <h2>Laba VUE.JS</h2>
+            <a href="/">На главную</a>
+        </div>
+    </header>
+
+    <main id="form">
+
+        <div class="personal_form">
+            <form class="ps">
+                <a>Введите имя:</a><br>
+                <input type="text" name="name" class="in" value="" v-model='editForm.name'><br><br>
+                <a>Введите фамилию:</a><br>
+                <input type="text" name="surname" class="in" value="" v-model="editForm.lastName"><br><br>
+                <input type="button" class="bt" @click="addName()" value="Отправить">
+                <input type="button" class="bt" @click="clearForm()" value="Очистить">
+            </form>
+        </div>
+
+        <div class="fm">
+            <div v-if="showComment">
+                Добавьте элемент
+            </div>
+            <div class="form_conclusion" v-else>
+                <ul>
+                    <li  v-for="item in names">{{item}}</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <h3>KEK</h3>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="vue.js"></script>
+</body>
+</html>

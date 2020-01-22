@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+body{
+
+}
+
+/*Шапка*/
+header{
+    flex-wrap: wrap;
+    /*width: 100%;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5C0DAC;
+    padding: 12px;
+    border-bottom: 3px solid black;
+}
+.header_logo{
+    flex: 2;
+}
+.header_logo h1{
+    font-family: 'Russo One', sans-serif;
+    color: black;
+    font-size: 42px;
+}
+.header_content{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.header_content a,h2{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 21px;
+    margin-left: 8px;
+}
+.header_content a:hover {
+    background-color: white;
+    padding: 5px;
+    border-radius: 9px;
+}
+/*Конец шапки*/
+
+
+main{
+    height: 523px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 27px;
+    background-color: #8B42D6;
+}
+
+/*Форма и вывод*/
+    /*Форма*/
+.personal_form{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 20px;
+}
+.ps{
+    height: 240px;
+    background-color: #5C0DAC;
+    padding: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.in{
+    height: 37px;
+    width: 250px;
+    background-color: #542881;
+    border: 2px solid black;
+    border-radius: 17px;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 28px;
+}
+.bt{
+    width: 130px;
+    height: 40px;
+    background-color: #3A0470;
+    border: 2px solid black;
+    padding: 7px;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 20px;
+}
+    /*Конец формы*/
+
+.fm{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 20px;
+
+}
+.fm li{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+/*Конец формы и вывода*/
+footer{
+    background-color: #5C0DAC;
+    padding: 15px;
+}
+footer h3{
+    margin: 10px;
+    font-family: 'Russo One', sans-serif;
+    color: black;
+    font-size: 38px;
+}

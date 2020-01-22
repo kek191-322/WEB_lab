@@ -1,0 +1,310 @@
+@font-face {
+    font-family: Regular;
+    src: url(fonts/DS_Stamper.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*Шапка*/
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #FF6C00;
+    /*background-color: #FF7600;*/
+    justify-content: center;
+}
+.logo{
+    flex: 2;
+}
+.logo a{
+    font-size: 51px;
+    font-weight: 800;
+    font-family: 'DS_Stamper', Regular;
+    padding: 6px;
+    color: ghostwhite;
+}
+.nav{
+    flex: 6;
+    display: flex;
+    justify-content: space-around;
+}
+.nav a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: ghostwhite;
+}
+.nav a:hover {
+    border-radius: 22%;
+    border-top: 5px solid ghostwhite;
+    border-bottom: 5px solid ghostwhite;
+    transition: 0.5s;
+}
+/*Конец шапки*/
+
+
+/*Глваная страница*/
+.content{
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.content-1{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content-2{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content-3{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    border-radius: 12px;
+    padding: 18px;
+    margin: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.card h2{
+    padding: 9px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.card img{
+    margin: 10px;
+}
+.card p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+.card a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 7px;
+    margin-top: 25px;
+    background-color: #FF6C00;
+    color: ghostwhite;
+    border-radius: 8px;
+    font-weight: 900;
+    font-size: 20px;
+}
+/*Конец главной страницы*/
+
+
+/*Расписание*/
+.frame{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+iframe{
+    width: 700px;
+    height: 590px;
+}
+/*Конец расписания*/
+
+
+/*Полезные ссылки*/
+.link{
+    height: 100vh;
+    padding: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background: radial-gradient(rgba(232, 119, 0, 0.84), #FF6C00);*/
+}
+.link a{
+    /*margin: 2px;*/
+    /*padding: 17px;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+}
+/*Конец полезных ссылок*/
+
+
+/*Контакты*/
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 300px;
+}
+.contact h1{
+    color: black;
+}
+/*Конец контактов*/
+
+
+/*GIT*/
+.git-content{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.git-content h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+.git-content a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: black;
+}
+.git-info{
+    margin: 5px;
+    padding: 12px;
+}
+/*Конец GIT*/
+
+/*IT Essentials*/
+.it-content{
+    margin-top: 33px;
+    margin-bottom: 33px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.it-content h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+.it-content a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: black;
+}
+.it-info{
+    margin: 5px;
+    padding: 12px;
+}
+/*Конец IT Essentials*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Подвал*/
+
+
+footer{
+    /*width: 100%;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*margin: 14px;*/
+    /*padding: 15px;*/
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FF6C00;
+    justify-content: space-around;
+}
+footer a{
+    padding: 5px;
+}
+.foo-left{
+    display: flex;
+    flex-direction: column;
+}
+.foo-left a{
+    text-align: center;
+    font-family: 'DS_Stamper', Regular;
+    font-size: 43px;
+    font-weight: 700;
+    color: ghostwhite;
+}
+.foo-center{
+    display: flex;
+    flex-direction: column;
+}
+.foo-center a{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: ghostwhite;
+}
+.foo-right{
+    display: flex;
+    flex-direction: column;
+}
+.foo-right a{
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: ghostwhite;
+}
+/*Конец подвала*/
+
+
+
+
+
+
